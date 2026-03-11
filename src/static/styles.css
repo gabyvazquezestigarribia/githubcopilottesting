@@ -57,6 +57,31 @@ section h3 {
   color: #1a237e;
 }
 
+/* participants list styling */
+.participants {
+  margin-top: 10px;
+}
+
+.participants ul {
+  /* remove default bullets and indentation */
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.participants li {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+/* clickable icon to unregister participant */
+.delete-icon {
+  cursor: pointer;
+  color: #c00;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
